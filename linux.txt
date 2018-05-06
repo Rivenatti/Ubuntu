@@ -57,3 +57,9 @@ sudo apt install -y curl
 // Node.js
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
+
+
+//NetBeans
+sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
+sudo apt-get update
+sudo apt-get install netbeans
