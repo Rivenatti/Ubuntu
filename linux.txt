@@ -60,6 +60,6 @@ sudo apt-get install -y nodejs
 
 
 //NetBeans
-sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
-sudo apt-get update
-sudo apt-get install netbeans
+cd /tmp && wget -c http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-linux.sh
+chmod +x netbeans-8.2-linux.sh
+sudo ./netbeans-8.2-linux.sh
