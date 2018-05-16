@@ -1,0 +1,21 @@
+// INSTALL
+sudo add-apt-repository -y "deb https://packages.microsoft.com/repos/vscode stable main"
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF
+sudo apt update
+sudo apt -y install code
+
+// EXTENSIONS
+code --install-extension tht13.html-preview-vscode
+code --install-extension abusaidm.html-snippets
+code --install-extension xabikos.javascriptsnippets
+code --install-extension eg2.vscode-npm-script
+code --install-extension christian-kohler.path-intellisense
+code --install-extension esbenp.prettier-vscode
+code --install-extension robinbentley.sass-indented
+code --install-extension shinnn.stylelint
+code --install-extension lihui.vs-color-picker
+code --install-extension robertohuertasm.vscode-icons
+
+// ONELINE
+sudo add-apt-repository -y "deb https://packages.microsoft.com/repos/vscode stable main";sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF;sudo apt update;sudo apt -y install code;code --install-extension tht13.html-preview-vscode;code --install-extension abusaidm.html-snippets;code --install-extension xabikos.javascriptsnippets
+code --install-extension eg2.vscode-npm-script;code --install-extension christian-kohler.path-intellisense;code --install-extension esbenp.prettier-vscode;code --install-extension robinbentley.sass-indented;code --install-extension shinnn.stylelint;code --install-extension lihui.vs-color-picker;code --install-extension robertohuertasm.vscode-icons;
