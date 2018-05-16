@@ -1,0 +1,30 @@
+// INSTALL
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt update
+sudo apt install -y atom
+
+// EXTENSIONS
+	*file-icons                   (apm install file-icons)
+	*html-preview                 (apm install atom-html-preview)
+	*beautifyer                   (apm install atom-beautify)
+	*color-picker                 (apm install color-picker)
+	*higlight-selected            (apm install highlight-selected)
+	*linter                       (apm install linter)
+		- linter-ui-default	    		(apm install linter-ui-default)
+		- linter-csslint            (apm install linter-csslint)
+		- linter-jscs               (apm install linter-jscs)
+		- linter-eslint             (apm install linter-eslint)
+		- linter-jsonlint           (apm install linter-jsonlint)
+		- linter-php                (apm install linter-php)
+		- linter-phpcs              (apm install linter-phpcs)
+		- linter-write-good         (apm install linter-write-good)
+		- linter-xmllint            (apm install linter-xmllint)
+	*atom-ternjs                  (apm install atom-ternjs)
+	*auto-update-packages         (apm install atom-auto-update-packages)
+	*tree-view-copy-relative-path (apm install tree-view-copy-relative-path)
+  UI:	Seti                      (apm install seti-ui)
+  syntax: gruvbox-plus-syntax   (apm install gruvbox-plus-syntax)
+  !!*emmet (keybind change)
+
+// ONELINE
+sudo add-apt-repository ppa:webupd8team/atom;sudo apt update;sudo apt install -y atom;apm install file-icons;apm install atom-html-preview;apm install atom-beautify;apm install color-picker;apm install highlight-selected;apm install linter;apm install linter-csslint;apm install linter-jscs;apm install linter-jscs;apm install linter-eslint;apm install linter-jsonlint;apm install linter-php;apm install linter-phpcs;apm install linter-write-good;apm install linter-xmllint;apm install atom-ternjs;apm install atom-auto-update-packages;apm install tree-view-copy-relative-path;apm install seti-ui;apm install gruvbox-plus-syntax;
